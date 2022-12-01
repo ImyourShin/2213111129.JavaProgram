@@ -1,4 +1,4 @@
 StudentID   : 2213111129
 Name        : Tachin Bubpha
 AKA         : ImyourShin
-ClassDetail : Control Statement & Confirm Dialog 
+ClassDetail : String Methods and Difined Methods
