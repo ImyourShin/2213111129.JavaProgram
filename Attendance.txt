@@ -1,4 +1,6 @@
+Date        : 08-Dec-2022
 StudentID   : 2213111129
 Name        : Tachin Bubpha
 AKA         : ImyourShin
-ClassDetail : String Methods and Difined Methods
+ClassDetail : User-Defined Method with String
+
