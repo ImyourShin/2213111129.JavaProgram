@@ -14,12 +14,5 @@ public class Lab505 {
 	  studentId =scan.nextLine();
 	  System.out.print("Enter Subject Id ");
 	  subjectId =scan.nextInt();
-	  while(studentId.length()<10 &&subjectId.length() < 7) {
-		  System.out.print("Enter Student Id: ");
-		  studentId =scan.nextLine();
-		  System.out.print("Enter Subject Id ");
-		  subjectId =scan.nextInt();
-	  }
 	}
-
 }
