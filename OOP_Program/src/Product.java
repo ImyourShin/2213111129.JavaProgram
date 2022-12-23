@@ -24,8 +24,22 @@ public double getPrice() {
 	return price;
 }
 public double calculate() {
-	return price;
+	return price*unit;
 	
+}
+public String checkStock(int unit) {
+	if(unit < 5) {
+		return "LOW";
+	}
+	else if (unit >= 5 && unit <50 ) {
+		return "NORMAL";
+	}
+	else if (unit>=50) {
+		return "HIGH";
+	}
+	else {
+		return "";
+	}
 }
 	
 	

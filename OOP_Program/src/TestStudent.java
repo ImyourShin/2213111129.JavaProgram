@@ -13,24 +13,24 @@ public class TestStudent {
 			while(!std[i].checkScore()) {
 				System.out.print("Input student score, again: ");
 				std[i].setScore(scan.nextInt());
+				
 			} //end while()
-			System.out.println();
+			System.out.println("-----------------------------");
+
 		}//end for()
-		System.out.println();
-		System.out.println("LIST OF PASS STUDENT (>=50)");
-		System.out.println("-----------------------------");
+//		System.out.println("LIST OF PASS STUDENT (>=50)");
+//		System.out.println("-----------------------------");
 		/*for(int i=0;i<std.length;i++) {
 			if(std[i].isPass()) {
 				System.out.println(">> "+std[i].getName()+" ("+std[i].getScore()+" )");
 			}
 		}*/
 		for(Student STD : std) {
-			if(STD.isPass()) {
-				System.out.println(">> "+STD.getName()+" ("+STD.getScore()+" )");
+			   System.out.println(">> "+STD.getName()+" get "+ STD.findGrade(STD.getScore()));
+			
 			}
 		}
 
 
 	}//end of main()
 
-}
